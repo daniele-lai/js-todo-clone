@@ -11,5 +11,11 @@ $("#acquisti").keypress(function(event) {
 
     //Mostriamo l'elemento all'interno del documento
     $(".lista").append(listaClone);
+    $(this).val("");
   }
+})
+
+//Rimozione elementi dalla lista
+$(".lista").on("click", ".close", function () {
+  $(this).parent().remove();
 })
