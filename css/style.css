@@ -1,3 +1,26 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+
 .template {
   display: none;
+}
+
+.close_circle {
+  font-size: 15px;
+  color: #FF6347;
+}
+
+.close {
+  cursor: pointer;
+}
+
+.lista li {
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+label {
+  font-size: 20px;
 }
